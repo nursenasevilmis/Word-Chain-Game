@@ -1,0 +1,152 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #B9B4C7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-game {
+
+  background: #dddddf;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 550px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+.div-game h1 {
+  color: #392e57;
+}
+
+.div-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px;
+  margin: 20px auto;
+  color: #362f46;
+
+}
+
+#score1 {
+  width: 100px;
+  height: 65px;
+  border: 3px solid;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 50px;
+  margin-left: -30px;
+  border-color: white;
+  box-shadow: 2px 2px 5px;
+}
+
+#score2 {
+  margin-right: -30px;
+  width: 100px;
+  height: 65px;
+  border: 3px solid;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 25px;
+  border-color: white;
+  box-shadow: 2px 2px 5px;
+}
+
+#timer {
+  margin-left: -40px;
+  width: 100px;
+  height: 65px;
+  border: 3px solid;
+  box-shadow: 2px 2px 5px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 25px;
+  border-color: white;
+}
+
+
+.word-form {
+  margin-top: 25px;
+}
+
+.word-input {
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #392e57;
+  color: #FAF0E6;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.feedback {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  color: #FAF0E6;
+}
+
+.div-chain {
+  margin-top: 10px;
+  height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  border: 2px #392e57;
+  border-radius: 10px;
+
+}
+
+.word-item {
+  margin: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #392e57;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #dedbe6;
+}
+
+.game-over {
+  margin-top: 10px;
+  color: #392e57;
+}
+
+#p_score {
+  margin-top: 10px;
+  color: #392e57;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #392e57;
+  color: #dddddf;
+  border: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}

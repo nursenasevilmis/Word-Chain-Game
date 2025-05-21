@@ -20,5 +20,5 @@ A simple **Word Chain** game built with HTML, CSS, and JavaScript.
 - Ends with a congratulatory message.
 
 ## Watch a demo video
-
+https://github.com/user-attachments/assets/21b17bfc-6a3f-4b6e-b31a-0d40dacafaf1
 

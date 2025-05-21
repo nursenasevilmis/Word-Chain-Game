@@ -19,6 +19,6 @@ A simple **Word Chain** game built with HTML, CSS, and JavaScript.
 - The game shows how many valid words you entered.
 - Ends with a congratulatory message.
 
-Watch a demo video:
+## Watch a demo video
 
 
